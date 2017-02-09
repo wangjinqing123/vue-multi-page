@@ -1,0 +1,97 @@
+.fixed{
+  position: fixed;
+  left: 0;
+  width: 100%;
+}
+.relative{
+  position: relative;
+}
+.bg_white{
+  background: $white;
+}
+.pointer{
+   cursor:pointer;
+ }
+.block{
+  display: block;
+}
+.none{
+  display: none;
+}
+.inline_block{
+  display: inline-block;
+}
+.cover{
+  background-size:cover important();
+}
+.contain{
+  background-size:contain important();
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix{
+  zoom: 1;
+}
+.float_left{
+  float:left;
+}
+.float_right{
+  float:right;
+}
+.padding_l_r_24{
+  padding:0 px2rem(24);
+}
+.padding_24{
+  padding:px2rem(24);
+}
+.padding_b_120{
+  padding-bottom: px2rem(120);
+}
+.padding_t_122{
+  padding-top: px2rem(120);
+}
+.padding_tb_120{
+  padding: px2rem(122) 0 px2rem(120) 0;
+}
+.margin_b_20{
+  margin-bottom: px2rem(20);
+}
+.text_center{
+  text-align: center;
+}
+.flex{
+  display: flex;
+  &.flex_v_center{
+    align-items:center;
+  }
+  &.flex_h_center{
+    justify-content:center;
+  }
+  .flex_item{
+    flex: 1;
+  }
+  .flex_start{
+    align-items:flex-start;
+  }
+  .flex_end{
+    align-items:flex-end;
+  }
+  .flex_center{
+    align-items:center;
+  }
+}
+.xoverflow_scroll{
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.fl{
+  float:left;
+}
+.fr{
+  float:right;
+}
